@@ -1,3 +1,9 @@
+[![Python Tests](https://github.com/RishitLaddha/session18/actions/workflows/test.yml/badge.svg)](https://github.com/RishitLaddha/session18/actions/workflows/test.yml)
+
+<img width="1225" alt="Screenshot 2025-02-18 at 22 28 09" src="https://github.com/user-attachments/assets/6a540bf5-0752-4669-b1ec-b401430b6a5b" />
+
+
+
 # JSON Serialization and Deserialization for Stock and Trade Objects
 
 This project demonstrates how to perform custom JSON serialization and deserialization for two specific domain classes: a **Stock** and a **Trade**. In addition to using a custom JSON encoder/decoder pair, we also implement a solution with the Marshmallow library to perform schema‐based (de)serialization. The aim is to convert complex Python objects (which include non‐native types such as `date`, `datetime`, and `Decimal`) into JSON strings and then be able to reconstruct the original objects from those strings.
